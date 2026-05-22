@@ -11,7 +11,7 @@ This dataset is introduced in our paper:
 Multispectral object detection has shown strong potential in challenging visual environments by exploiting complementary information from different sensing modalities. However, most existing visible-infrared datasets assume well-aligned image pairs and mainly focus on general low-light scenes.
 
 In real-world heterogeneous sensor systems, especially under extremely low illumination, accurate pixel-level alignment is difficult due to sensor parallax, field-of-view differences, focal-plane inconsistency, and asynchronous acquisition. To address this gap, we construct **LLNVIR**, a weakly aligned night-vision and infrared dataset collected under extremely low-light conditions.
-![image](https://github.com/kukugumu/LLNVIR/blob/main/fig3.pdf))
+![image](https://github.com/kukugumu/LLNVIR/blob/main/LLNVIR.png)
 
 ## Key Features
 
