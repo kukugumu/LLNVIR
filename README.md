@@ -49,16 +49,13 @@ LLNVIR/
 ├── images/
 │   ├── train/
 │   │   ├── night_vision/
-│   │   │   ├── 000001.jpg
-│   │   │   ├── 000002.jpg
+│   │   │   ├── 000001.png
+│   │   │   ├── 000002.png
 │   │   │   └── ...
 │   │   └── infrared/
-│   │       ├── 000001.jpg
-│   │       ├── 000002.jpg
+│   │       ├── 000001.png
+│   │       ├── 000002.png
 │   │       └── ...
-│   ├── val/
-│   │   ├── night_vision/
-│   │   └── infrared/
 │   └── test/
 │       ├── night_vision/
 │       └── infrared/
@@ -68,12 +65,34 @@ LLNVIR/
 │   │   ├── 000001.txt
 │   │   ├── 000002.txt
 │   │   └── ...
-│   ├── val/
 │   └── test/
 │
-├── ImageSets/
-│   ├── train.txt
-│   ├── val.txt
-│   └── test.txt
 │
 └── README.md
+```
+
+## Annotation Format
+
+The annotations follow the standard YOLO format:
+
+<class_id> <x_center> <y_center> <width> <height>
+
+where all coordinates are normalized to the range [0, 1].
+
+Class definitions:
+
+0: person
+1: car
+
+Example:
+
+0 0.5123 0.6341 0.0832 0.2915
+1 0.7428 0.5812 0.1627 0.1843
+Download
+
+The dataset will be released at:
+
+Google Drive: [Coming soon]
+Alipan: [Coming soon]
+
+Please check this repository for updates.
