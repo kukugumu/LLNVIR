@@ -95,6 +95,6 @@ Download
 The dataset will be released at:
 ```text
 Google Drive: [Coming soon]
-Alipan: [Coming soon]
+BaiduYun:https://pan.baidu.com/s/1dp7Ia2xcuTKNZ5zV0AZUsA?pwd=icuz 提取码: icuz 
 ```
 Please check this repository for updates.
